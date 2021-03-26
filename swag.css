@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'JetBrains Mono', monospace;
+    width: 100vmax;
+    height: 100vh;
+}
+.conte{
+    margin-top: 1%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.card{
+    border-color: black;
+    border-style: solid;
+    margin-top: 1%;
+    border-radius: 1rem;
+}
+h3{
+    margin-left: 0.5rem;
+}
+h4{
+    margin-left: 1rem;
+    color: gray;
+}
+img{
+    border-bottom: 5px solid black;
+    border-radius: 1rem;
+}
